@@ -18,7 +18,7 @@ const Header = () => {
   const fetchMessages = async () => {
     try {
       const response = await axios.get(
-        "http://3.111.128.67/assignment/chat?page=0"
+        "https://3.111.128.67/assignment/chat?page=0"
       );
       setInfo(response.data);
     } catch (error) {

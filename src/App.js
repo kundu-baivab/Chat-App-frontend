@@ -1,7 +1,6 @@
 import React, { Suspense } from "react";
 
 import Header from "./components/Header";
-// import Chats from "./components/Chats";
 import Footer from "./components/Footer";
 import { ErrorBoundary } from "react-error-boundary";
 import fallbackRender from "./components/ErrorBoundary";
